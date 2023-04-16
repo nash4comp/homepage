@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>HTML Assignment02_02</title>
+      <meta charset="utf-8"/>
+      <meta name="author" content="Inkyung Baek"/>
+      <meta name="id" content="A01243888"/>
+      <meta name="description" content="Assignment02 for COMP1537"/>
+      <meta name="editor" content="Visual Studio Code"/>
+      <meta name="keywords" content="HTML, 1537, CST, XML, JavaScript,BCIT"/>
+      <link rel="shortcut icon" href="favicon.ico"/>
+
+      
+      <style>
+        * {
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 20px;
+          text-indent: 1em;
+          line-height: 1.75em;
+        }
+        div {
+          font-family: Arial, sans-serif, helvetica;
+          font-size: 25px;
+          text-indent: 1em;
+          line-height: 1.75em;
+          background: navy;
+          color:papayawhip;
+        }
+        #third {
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          background: #ffff00;
+        }
+        .others {
+          color:rgb(238, 10, 10);
+        }
+        nav ol {
+          color:forestgreen;
+          font-weight: bold;
+        }
+        a[target="_blank"]{
+          color:mintcream;
+          background: maroon;
+        }
+        a:hover {
+          color:orange;
+        }
+        [class="city"]{
+          color:lavender;
+          background-color:darkorchid;
+        }
+        .city tr:nth-of-type(2){
+          background-color: orchid;
+        }
+        .city tr:nth-of-type(3){
+          color:darkblue;
+          background-color:paleturquoise;
+        }
+      </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>About Canada</h1>
+    </header>
+    <nav>
+      <h3>Contents</h3>
+      <ol>
+        <li>Etymology</li>
+        <li>History</li>
+        <li>Geography</li>
+        <li>Government and politics</li>
+      </ol>
+    </nav>
+
+    <p>
+      Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.
+    </p>
+    
+    <div>
+      Indigenous peoples have continuously inhabited what is now Canada for thousands of years. Beginning in the 16th century, British and French expeditions explored and later settled along the Atlantic coast. As a consequence of various armed conflicts, France ceded nearly all of its colonies in North America in 1763. In 1867, with the union of three British North American colonies through Confederation, Canada was formed as a federal dominion of four provinces. This began an accretion of provinces and territories and a process of increasing autonomy from the United Kingdom. This widening autonomy was highlighted by the Statute of Westminster 1931 and culminated in the Canada Act 1982, which severed the vestiges of legal dependence on the Parliament of the United Kingdom.
+    </div>
+
+    <p id="third">
+      Canada is a parliamentary democracy and a constitutional monarchy in the Westminster tradition. The country's head of government is the prime minister—who holds office by virtue of their ability to command the confidence of the elected House of Commons—and is appointed by the governor general, representing the monarch, who serves as head of state. The country is a Commonwealth realm and is officially bilingual at the federal level. It ranks among the highest in international measurements of government transparency, civil liberties, quality of life, economic freedom, and education. It is one of the world's most ethnically diverse and multicultural nations, the product of large-scale immigration from many other countries. Canada's long and complex relationship with the United States has had a significant impact on its economy and culture.
+    </p>
+    
+    <p>
+      A highly developed country, <a href="https://en.wikipedia.org/wiki/Canada" target="_blank">Canada </a>has the 24th highest nominal per-capita income globally and the sixteenth-highest ranking in the Human Development Index. Its advanced economy is the ninth-largest in the world, relying chiefly upon its abundant natural resources and well-developed international trade networks. Canada is part of several major international and intergovernmental institutions or groupings including the United Nations, NATO, the G7, the Group of Ten, the G20, the Organisation for Economic Co-operation and Development (OECD), the World Trade Organization (WTO), the Commonwealth of Nations, the Arctic Council, the Organisation internationale de la Francophonie, the Asia-Pacific Economic Cooperation forum, and the Organization of American States.
+    </p>
+
+    <h2>Etymology</h2>
+    <p>
+      Canada. These two colonies were collectively named the Canadas until their union as the British Province of Canada in 1841.[15]
+    </p>
+    
+    <p class="city">
+      Upon Confederation in 1867, Canada was adopted as the legal name for the new country at the London Conference, and the word Dominion was conferred as the country's title.[16] By the 1950s, the term Dominion of Canada was no longer used by the United Kingdom, which considered Canada a "Realm of the Commonwealth".[17] The government of Louis St. Laurent ended the practice of using Dominion in the statutes of Canada in 1951.[18][19][20]
+    </p>
+
+    <p>
+      The Canada Act 1982, which brought the constitution of Canada fully under Canadian control, referred only to Canada. Later that year, the name of the national holiday was changed from Dominion Day to Canada Day.[21] The term Dominion was used to distinguish the federal government from the provinces, though after the Second World War the term federal had replaced dominion.[22]
+    </p>
+
+    <table class="city">
+      <thead>
+        <tr>
+          <th>City</th>
+          <th>Province</th>
+          <th>Population</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Toronto</td>
+          <td>Ontario</td>
+          <td>5,928,040</td>
+        </tr>
+        <tr>
+          <td>Montreal</td>
+          <td>Quebec</td>
+          <td>4,098,927</td>
+        </tr>
+        <tr>
+          <td>Vancouver</td>
+          <td>British Columbia</td>
+          <td>2,463,431</td>
+        </tr>
+        <tr>
+          <td>Calgary</td>
+          <td>Alberta</td>
+          <td>1,392,609</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer>
+      <h2>See also</h2>
+      <ul class="others">
+        <li><a href="https://en.wikipedia.org/wiki/Index_of_Canada-related_articles">Index of Canada-related articles</a></li>
+        <li>Outline of Canada</li>
+        <li>Topics by provinces and territories</li>
+      </ul>      
+    </footer>
+  </body>
+</html>
